@@ -1,0 +1,31 @@
+100 continue 临时响应 迄今为止所有内容都是可行的
+101 Switching Protocol 该代码是响应客户端的 Upgrade 标头发送的 并且指示服务器也在切换协议
+200 OK
+201 Created 通常是 PUT 请求响应
+202 Accepted 请求已经收到 但是还未响应
+204 No Content 成功处理了请求 但是不需要返回任何实体内容
+205 Reset Content 成功处理了请求 不需要返回实体内容 但是需要重新刷新文档 用于 form 提交
+206 Partial Content
+300 Multiple Choice
+301 Moved Permanently 永久重定向
+302 Found 临时重定向
+303 See Other 意思是说对应当前请求的响应可以在另一个 URI 找到 而且客户端应该使用 GET 方法
+304 Not Modified
+307 302
+308 301
+400 Bad Request
+401 Unauthorized
+403 Forbidden 和 401 相比 验证身份也没用
+404
+405 Method Not Allow
+406 请求接受的资源属性和服务器上的资源属性不一致 无法返回
+408 Request Timeout
+414 URI Too Long
+418 I’m a teapot
+451 Unavailable For Legal Reasons
+500
+501 请求方法不支持 无法处理
+502 Bad Gateway
+503 Service Unavailable 一般是维护 停机
+504 Gatway Timeout 服务器作为网关 不能及时得到响应
+505 HTTP Version Not Supported

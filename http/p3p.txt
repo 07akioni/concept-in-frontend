@@ -1,0 +1,3 @@
+P3P is the platform for privacy perferences.
+Only IE support this protocol.
+reference: https://www.zhihu.com/question/49969047
